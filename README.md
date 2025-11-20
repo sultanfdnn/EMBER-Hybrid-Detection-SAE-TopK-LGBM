@@ -111,6 +111,21 @@ Her Python dosyası bağımsız olarak terminal üzerinden çalıştırılabilir
 
 python Hybrid_OFF_SAE_LGBM_5Fold.py
 
+⚠ Not: Model Adı Hakkında Açıklama
+
+Bu projedeki bazı Excel sonuç dosyalarında "Model" kolonu otomatik olarak Hybrid_SAE_LGBM şeklinde görünmektedir.
+Bu durum yalnızca çıktı dosyasındaki etiketleme hatasından kaynaklanmaktadır ve modelin gerçek yapısını etkilememektedir.
+
+İlgili Python dosyalarında kullanılan modeller sırayla:
+
+Hybrid_SAE_LGBM
+
+Hybrid_TopK_LGBM
+
+Hybrid_LGBM
+
+şeklindedir. Çıktı tablosundaki isim farkı yalnızca etiketleme hatasıdır; sonuçlar doğru modele aittir.
+
 📧 İletişim
 Sultan Tazefidan
 📩 sultantazefidan.1@gmail.com
