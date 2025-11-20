@@ -116,15 +116,15 @@ python Hybrid_OFF_SAE_LGBM_5Fold.py
 Bu projedeki bazı Excel sonuç dosyalarında "Model" kolonu otomatik olarak Hybrid_SAE_LGBM şeklinde görünmektedir.
 Bu durum bazı senaryolarda yalnızca çıktı dosyasındaki etiketleme hatasından kaynaklanmakta olup, modelin gerçek yapısını etkilememektedir.
 
-✔ OFF (Ana Deney) İçin Model Adı Doğrudur
+✔ OFF (5Fold) İçin Model Adı Doğrudur
 
-OFF veri temsili (ana deney) için kullanılan nihai hibrit model gerçekten:
+OFF veri temsili (5Fold) için kullanılan nihai hibrit model gerçekten:
 ➡ Hybrid_SAE_LGBM
 Dolayısıyla OFF sonuçlarında görülen model adı doğru ve geçerlidir.
 
-✔ Diğer Hibrit Modeller Hakkında
+✔ Ablasyon (Bileşen Analizi) Modelleri Hakkında
 
-Projede kullanılan hibrit modeller:
+Bu çalışmada hibrit mimarinin bileşen katkılarını değerlendirmek amacıyla üç ayrı ablation modeli kullanılmıştır:
 
 Hybrid_SAE_LGBM
 
@@ -132,13 +132,13 @@ Hybrid_TopK_LGBM
 
 Hybrid_LGBM
 
-Bazı ara çıktı dosyalarında tüm modellerin adı Hybrid_SAE_LGBM olarak görünebilir.
-Bu yalnızca etiketleme hatasıdır; hesaplanan metrikler doğru modele aittir.
+Bazı ara çıktı dosyalarında bu üç model de Hybrid_SAE_LGBM olarak görünebilmektedir.
+Bu, yalnızca etiketleme kaynaklı bir isimlendirme hatasıdır; performans metrikleri doğru model üzerinden hesaplanmıştır.
 
 ✔ Doğru Etiketlenmiş Excel Dosyaları Mevcuttur
 
-Tüm modeller için doğru şekilde etiketlenmiş Excel sonuç dosyaları ayrıca eklenmiştir.
-Bu dosyalarda her modelin adı doğru şekilde belirtilmiş olup, karşılaştırma ve analizler için güvenle kullanılabilir.
+Her bir ablation modeli için doğru şekilde etiketlenmiş Excel çıktı dosyaları ayrıca eklenmiştir.
+Bu dosyalarda model adları doğru belirtilmiş olup, analiz ve karşılaştırmalar için güvenle kullanılabilir.
 
 📧 İletişim
 Sultan Tazefidan
