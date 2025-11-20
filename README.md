@@ -20,23 +20,26 @@ Tüm deneyler iki ana senaryoda gerçekleştirilmiştir:
 code/
 │
 ├── 5Fold/
-│ ├── DL_OFF_5Fold.py
-│ ├── DL_PL5DA_5Fold.py
-│ ├── DL_VAE_Robust_5Fold.py
-│ ├── Hybrid_OFF_5Fold.py
-│ ├── Hybrid_OFF_LGBM_5Fold.py
-│ ├── Hybrid_OFF_SAE_LGBM_5Fold.py
-│ ├── Hybrid_OFF_TopK_LGBM_5Fold.py
-│ ├── Hybrid_PL5DA_5Fold.py
-│ ├── Hybrid_VAE_5Fold.py
-│ ├── ML_OFF_5Fold.py
-│ ├── ML_PL5DA_5Fold.py
-│ └── ML_VAE_5Fold.py
+│   ├── DL_OFF_5Fold.py
+│   ├── DL_PL5DA_5Fold.py
+│   ├── DL_VAE_Robust_5Fold.py
+│   ├── Hybrid_OFF_5Fold.py
+│   ├── Hybrid_OFF_LGBM_5Fold.py
+│   ├── Hybrid_OFF_SAE_LGBM_5Fold.py
+│   ├── Hybrid_OFF_TopK_LGBM_5Fold.py
+│   ├── Hybrid_PL5DA_5Fold.py
+│   ├── Hybrid_VAE_5Fold.py
+│   ├── ML_OFF_5Fold.py
+│   ├── ML_PL5DA_5Fold.py
+│   └── ML_VAE_5Fold.py
 │
 ├── Temporal/
-│ ├── DL_Temporal.py
-│ ├── Hybrid_Temporal.py
-│ └── ML_Temporal.py
+│   ├── DL_Temporal.py
+│   ├── Hybrid_Temporal.py
+│   └── ML_Temporal.py
+│
+└── README.md
+
 
 
 ---
