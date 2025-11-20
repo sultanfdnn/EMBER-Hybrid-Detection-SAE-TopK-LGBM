@@ -57,7 +57,7 @@ figures/
 ├── ML_Temporal/
 └── Hybrid_Temporal/
 
-README.md   ← sadece burada olacak
+README.md 
 
 
 ```
