@@ -18,7 +18,6 @@ Tüm deneyler iki ana senaryoda gerçekleştirilmiştir:
 
 ## 📌 2. Klasör Yapısı
 code/
-│
 ├── 5Fold/
 │   ├── DL_OFF_5Fold.py
 │   ├── DL_PL5DA_5Fold.py
@@ -39,8 +38,6 @@ code/
 │   └── ML_Temporal.py
 │
 └── README.md
-
-
 
 ---
 
