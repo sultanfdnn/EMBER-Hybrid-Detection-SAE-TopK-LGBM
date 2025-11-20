@@ -4,7 +4,7 @@ EMBER 2024 veri seti üzerinde geliştirilen SAE–Top-K–LightGBM hibrit mimar
 ---
 
 ## 📌 1. Çalışmanın Amacı
-Bu çalışmanın temel amacı, EMBER 2024 veri seti üzerinde Windows PE dosyaları için gerçek zamanlı çalışabilen, düşük gecikmeli, hafif ve yüksek doğruluk oranına sahip bir zararlı yazılım tespit modeli geliştirmektir. Bu kapsamda, SAE tabanlı derin temsiller, Top-K özellik seçimi ve LightGBM sınıflandırıcısından oluşan hibrit mimari tasarlanmış; model hem 5 Fold çapraz doğrulama hem de zaman temelli (temporal) test senaryoları ile kapsamlı şekilde değerlendirilmiştir.
+Bu çalışma, EMBER 2024 veri seti üzerinde gerçekleştirilen kapsamlı bir Ar-Ge (R&D) projesinin kod, analiz ve deneysel sonuçlarını içermektedir. Çalışmanın temel amacı, Windows PE dosyaları için gerçek zamanlı çalışabilen, düşük gecikmeli, hafif ve yüksek doğruluk oranına sahip bir zararlı yazılım tespit modeli geliştirmektir. Bu doğrultuda, SAE tabanlı derin temsiller, Top-K özellik seçimi ve LightGBM sınıflandırıcısından oluşan hibrit mimari tasarlanmış; model hem 5-Fold çapraz doğrulama hem de zaman temelli (temporal) test senaryoları ile kapsamlı biçimde değerlendirilmiştir.
 
 Tüm deneyler iki ana senaryoda gerçekleştirilmiştir:
 
@@ -114,4 +114,4 @@ python Hybrid_OFF_SAE_LGBM_5Fold.py
 📧 İletişim
 Sultan Tazefidan
 📩 sultantazefidan.1@gmail.com
-🎓 Beykent Üniversitesi – Yazılım Mühendisliği
+
