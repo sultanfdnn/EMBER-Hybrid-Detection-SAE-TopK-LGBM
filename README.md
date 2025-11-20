@@ -114,9 +114,17 @@ python Hybrid_OFF_SAE_LGBM_5Fold.py
 ⚠ Not: Model Adı Hakkında Açıklama
 
 Bu projedeki bazı Excel sonuç dosyalarında "Model" kolonu otomatik olarak Hybrid_SAE_LGBM şeklinde görünmektedir.
-Bu durum yalnızca çıktı dosyasındaki etiketleme hatasından kaynaklanmaktadır ve modelin gerçek yapısını etkilememektedir.
+Bu durum bazı senaryolarda yalnızca çıktı dosyasındaki etiketleme hatasından kaynaklanmakta olup, modelin gerçek yapısını etkilememektedir.
 
-İlgili Python dosyalarında kullanılan modeller sırayla:
+✔ OFF (Ana Deney) İçin Model Adı Doğrudur
+
+OFF veri temsili (ana deney) için kullanılan nihai hibrit model gerçekten:
+➡ Hybrid_SAE_LGBM
+Dolayısıyla OFF sonuçlarında görülen model adı doğru ve geçerlidir.
+
+✔ Diğer Hibrit Modeller Hakkında
+
+Projede kullanılan hibrit modeller:
 
 Hybrid_SAE_LGBM
 
@@ -124,7 +132,13 @@ Hybrid_TopK_LGBM
 
 Hybrid_LGBM
 
-şeklindedir. Çıktı tablosundaki isim farkı yalnızca etiketleme hatasıdır; sonuçlar doğru modele aittir.
+Bazı ara çıktı dosyalarında tüm modellerin adı Hybrid_SAE_LGBM olarak görünebilir.
+Bu yalnızca etiketleme hatasıdır; hesaplanan metrikler doğru modele aittir.
+
+✔ Doğru Etiketlenmiş Excel Dosyaları Mevcuttur
+
+Tüm modeller için doğru şekilde etiketlenmiş Excel sonuç dosyaları ayrıca eklenmiştir.
+Bu dosyalarda her modelin adı doğru şekilde belirtilmiş olup, karşılaştırma ve analizler için güvenle kullanılabilir.
 
 📧 İletişim
 Sultan Tazefidan
