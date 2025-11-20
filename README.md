@@ -36,6 +36,30 @@ code/
 │   └── ML_Temporal.py
 │
 └── README.md
+
+results/
+├── 5Fold/
+│   ├── (Tüm DL / ML / Hybrid modellerine ait 5-Fold sonuç xlsx/csv dosyaları)
+│   ├── DL_…_5FoldCV_EMBER24_final_model_performance_summary.xlsx
+│   ├── ML_…_5FoldCV_EMBER24_final_model_performance_summary.xlsx
+│   ├── Hybrid_…_5FoldCV_EMBER24_final_model_performance_summary.xlsx
+│   └── Hybrid_OFF_5FoldCV_bootstrap_CI_results.csv
+│
+├── Temporal/
+│   ├── DL_Temporal_EMBER24_temporal_performance_summary.xlsx
+│   ├── ML_Temporal_EMBER24_temporal_performance_summary.xlsx
+│   └── Hybrid_Temporal_EMBER24_temporal_performance_summary.xlsx
+│
+└── README.md
+
+figures/
+├── DL_5Fold/
+├── ML_5Fold/
+├── Hybrid_5Fold/
+├── DL_Temporal/
+├── ML_Temporal/
+└── Hybrid_Temporal/
+
 ```
 ---
 
