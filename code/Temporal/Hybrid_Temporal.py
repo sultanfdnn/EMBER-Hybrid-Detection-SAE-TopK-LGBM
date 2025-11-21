@@ -199,7 +199,7 @@ print(f"[CHECK] after scaler+VT -> train: {X_train.shape}, test: {X_test.shape}"
 # ========================= HİBRİT (SAE + Top-K + LGBM) =========================
 veri_name = "OFF"
 
-# --- SAE (agresif: daha az regularizasyon, daha uzun eğitim) ---
+# --- SAE  ---
 input_dim = X_train.shape[1]
 inp = tf.keras.Input(shape=(input_dim,))
 x  = layers.Dense(512, activation='relu', name='sae_h1',
@@ -398,4 +398,5 @@ df_results.to_excel(xlsx_path, index=False)
 print("\n--- Nihai Sonuçlar ---")
 print(df_results)
 print("\nDosyalar kaydedildi:\n", csv_path, "\n", xlsx_path)
+
 
