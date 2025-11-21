@@ -115,7 +115,7 @@ best_params_store = {
         "depth": 8,
     },
     "SGDClassifier": {
-        "loss": "log_loss",                  # Lojistik regresyon tipi
+        "loss": "log_loss",                  # Lojistik regresyon tip
         "penalty": "elasticnet",
         "alpha": 1e-4,
         "l1_ratio": 0.15,                    # ElasticNet oranı
@@ -311,4 +311,5 @@ if 'all_results' in locals() and all_results:
     print("\nDosyalar kaydedildi:\n", csv_path, "\n", xlsx_path)
 else:
     print("\n\nBÖLÜM 4: Raporlanacak sonuç bulunamadı.")
+
 
